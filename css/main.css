@@ -1,0 +1,124 @@
+body {
+	margin: 0;
+}
+
+nav {
+	background-color: #FE7E00;
+	color: white;
+	height: 65px;
+	z-index: 100;
+}
+
+nav a {
+	font-family: 'Maven Pro', sans-serif;
+	text-decoration: none;
+	color: white;
+	margin: 0 auto;
+	top: 10px;
+	position: absolute;
+	text-align: left;
+	font-weight: 700;
+	font-size: 34px;
+	left: 80px;
+}
+
+nav span {
+	font-weight: 100;
+}
+
+nav ul {
+	position: absolute;
+	right: 25px;
+	top: 5px;
+}
+
+nav li {
+	font-family: 'Maven Pro', sans-serif;
+	display: inline-block;
+	padding: 0 15px;
+}
+
+.search {
+	float: right;
+	border:1px solid grey;
+	background-color: #F1F0F1;
+	margin: 5px 70px;
+	height: 40px;
+	width: 17%;
+}
+
+input {
+	border: none;
+	text-align: left;
+	background-color: transparent;
+}
+
+button {
+	border: none;
+	float: right;
+	width: 10%;
+	height: 40px;
+	background-color: transparent;
+	padding-right: 5px; 
+}
+
+#stuff {
+	height: 500px;
+	margin-top: 91px;
+}
+
+.image {
+	zoom: 77%;
+	float: left;
+	margin: 50px 170px;
+}
+
+.intro {
+	float: right;
+	width: 50%;
+	padding-top: 115px;
+	padding-right: 50px;
+}
+
+
+.intro h1 {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 44px;
+	color: #FE7E00;
+	font-weight: 100;
+}
+
+.intro h1 span {
+	color: #7ACCC8;
+}
+
+.intro hr {
+	border: none;
+
+}
+
+.intro button {
+	margin: 0 auto;
+	border: none;
+	width: 35%;
+	color: white;
+	font-size: 15px;
+	height: 60px;
+}
+
+#quote {
+	background-color: #FE7E00;
+	margin-right: 110px;
+}
+
+#studies {
+	background-color: #7ACCC8;
+	margin-right: 95px;
+}
+
+footer {
+	background-color: #7ACCC8;
+	height: 70px;
+	padding-top: 10px;
+    padding-bottom: 0px;
+}
